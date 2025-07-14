@@ -1,0 +1,36 @@
+
+K6 Optimized Video Streaming Test Report
+=======================================
+Generated: 2025-07-14T09-02-14-851Z
+
+OVERALL GRADE: A+ (Excellent)
+
+CORE METRICS:
+============
+Total Requests: 6742
+Success Rate: 100.0%
+Failure Rate: 0.0%
+Request Rate: 17.39 req/s
+Checks Passed: 100.0%
+
+RESPONSE TIMES:
+==============
+Average: 0.40s
+P50: 0.00s
+P95: 1.19s
+P99: 0.00s
+
+STREAMING QUALITY:
+=================
+Video Segments: 100.0%
+Audio Segments: 100.0%
+Init Segments: 100.0%
+
+DATA TRANSFER:
+=============
+Total Received: 3050.99 MB
+Throughput: 8060.32 KB/s
+Peak CCU: 100
+Sessions: 295
+
+STATUS: Test completed successfully without crashes
