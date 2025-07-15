@@ -1,0 +1,85 @@
+
+Enhanced K6 Test Report
+======================
+Status: Test completed but enhanced report generation had issues
+Error: chartColors is not defined
+Timestamp: 2025-07-15T01-47-03-553Z
+
+     ✓ Audio init successful
+     ✓ Audio init has content
+     ✓ Video init successful
+     ✓ Video init has content
+     ✓ Audio seg 1 status OK
+     ✓ Audio seg 1 has data
+     ✓ Video seg 1 status OK
+     ✗ Video seg 1 has data
+      ↳  0% — ✓ 0 / ✗ 308
+     ✓ Audio seg 2 status OK
+     ✓ Audio seg 2 has data
+     ✓ Video seg 2 status OK
+     ✓ Video seg 2 has data
+     ✓ Audio seg 3 status OK
+     ✓ Audio seg 3 has data
+     ✓ Video seg 3 status OK
+     ✓ Video seg 3 has data
+     ✓ Audio seg 4 status OK
+     ✓ Audio seg 4 has data
+     ✓ Video seg 4 status OK
+     ✓ Video seg 4 has data
+     ✓ Audio seg 5 status OK
+     ✓ Audio seg 5 has data
+     ✓ Video seg 5 status OK
+     ✓ Video seg 5 has data
+     ✓ Audio seg 6 status OK
+     ✓ Audio seg 6 has data
+     ✓ Video seg 6 status OK
+     ✓ Video seg 6 has data
+     ✓ Audio seg 7 status OK
+     ✓ Audio seg 7 has data
+     ✓ Video seg 7 status OK
+     ✓ Video seg 7 has data
+     ✓ Audio seg 8 status OK
+     ✓ Audio seg 8 has data
+     ✓ Video seg 8 status OK
+     ✓ Video seg 8 has data
+     ✓ Audio seg 9 status OK
+     ✓ Audio seg 9 has data
+     ✓ Video seg 9 status OK
+     ✓ Video seg 9 has data
+     ✓ Audio seg 10 status OK
+     ✓ Audio seg 10 has data
+     ✓ Video seg 10 status OK
+     ✓ Video seg 10 has data
+     ✓ Audio seg 11 status OK
+     ✓ Audio seg 11 has data
+     ✓ Video seg 11 status OK
+     ✓ Video seg 11 has data
+
+   ✓ audio_segments_loaded..........: 100.00%    ✓ 3265           ✗ 0    
+   ✓ checks.........................: 97.84%     ✓ 13980          ✗ 308  
+   ✓ data_received..................: 3.6 GB     9.3 MB/s
+     data_sent......................: 12 MB      30 kB/s
+     http_req_blocked...............: avg=1.46ms       min=0s      med=0s      max=540.62ms p(90)=1µs      p(95)=1µs     
+     http_req_connecting............: avg=710.19µs     min=0s      med=0s      max=492.24ms p(90)=0s       p(95)=0s      
+   ✓ http_req_duration..............: avg=181.69ms     min=58.63ms med=96.82ms max=5.67s    p(90)=350.88ms p(95)=459.1ms 
+       { expected_response:true }...: avg=181.69ms     min=58.63ms med=96.82ms max=5.67s    p(90)=350.88ms p(95)=459.1ms 
+   ✓ http_req_failed................: 0.00%      ✓ 0              ✗ 7145 
+     http_req_receiving.............: avg=66.73ms      min=8µs     med=7.41ms  max=4.08s    p(90)=207.37ms p(95)=292.3ms 
+     http_req_sending...............: avg=41.7µs       min=8µs     med=24µs    max=8.55ms   p(90)=61µs     p(95)=128µs   
+     http_req_tls_handshaking.......: avg=739.18µs     min=0s      med=0s      max=166.18ms p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=114.91ms     min=58.19ms med=78.63ms max=5.47s    p(90)=291.44ms p(95)=324.21ms
+   ✓ http_reqs......................: 7145       18.491502/s
+   ✓ init_segments_loaded...........: 100.00%    ✓ 616            ✗ 0    
+   ✓ iteration_duration.............: avg=1m2s         min=1m2s    med=1m2s    max=1m5s     p(90)=1m2s     p(95)=1m2s    
+     iterations.....................: 255        0.659949/s
+     segment_load_time..............: avg=183.256543   min=59      med=98      max=5672     p(90)=352      p(95)=462     
+     segment_success_rate...........: 100.00%    ✓ 7145           ✗ 0    
+     session_duration...............: avg=62254.960784 min=62087   med=62146   max=65256    p(90)=62445.4  p(95)=62835.1 
+   ✓ streaming_session_quality......: 100.00%    ✓ 255            ✗ 0    
+     total_data_transferred_bytes...: 3435572969 8891379.428997/s
+   ✓ video_segments_loaded..........: 100.00%    ✓ 3264           ✗ 0    
+     vus............................: 1          min=0            max=100
+     vus_max........................: 100        min=100          max=100
+     vuser_active_count.............: -1         min=-1           max=1  
+   ✓ vuser_requests.................: 7145       18.491502/s
+     vuser_session_duration.........: avg=62254.960784 min=62087   med=62146   max=65256    p(90)=62445.4  p(95)=62835.1 

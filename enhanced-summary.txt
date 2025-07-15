@@ -1,0 +1,67 @@
+
+Enhanced K6 Video Streaming Load Test Report
+==========================================
+Generated: 2025-07-15T03-46-18-193Z
+
+OVERALL PERFORMANCE GRADE: A (Very Good High-Scale Performance)
+
+CORE PERFORMANCE METRICS:
+=========================
+Total Requests: 122521
+Success Rate: 98.8%
+Failure Rate: 1.2%
+Request Rate: 66.95 req/s
+Checks Passed: 98.6%
+
+RESPONSE TIME ANALYSIS:
+======================
+Average: 3.58s
+P50 (Median): 0.00s
+P90: 11.09s
+P95: 16.81s
+P99: 0.00s
+Max: 30.04s
+
+STREAMING QUALITY METRICS:
+==========================
+Video Segments Success: 97.4%
+Audio Segments Success: 100.0%
+Init Segments Success: 99.9%
+Overall Session Quality: 100.0%
+Segment Success Rate: 98.8%
+
+VUSER ANALYTICS:
+===============
+Peak Concurrent Users: 500
+Total VUser Requests: 122515
+Average Requests per User: 245.0
+Average Session Duration: 355.3s
+
+SESSION PERFORMANCE:
+===================
+Total Sessions: 1397
+Session Duration P50: 0.0s
+Session Duration P95: 383.6s
+Session Duration P99: 0.0s
+
+SEGMENT LOAD PERFORMANCE:
+========================
+Avg Segment Load Time: 3.59s
+Segment Load P90: 11.09s
+Segment Load P95: 16.81s
+Segment Load P99: 0.00s
+
+DATA TRANSFER METRICS:
+=====================
+Total Data Received: 67985.25 MB
+Throughput: 38041.61 KB/s
+Data per User: 135.97 MB
+
+STREAMING SIMULATION DETAILS:
+============================
+Segment Duration: 5.632s per segment
+Total Segments per Session: 54
+Streaming Duration per Session: 300s
+Realistic Browser Simulation: ✅ Enabled
+
+TEST STATUS: Enhanced test completed successfully with comprehensive VUser tracking
